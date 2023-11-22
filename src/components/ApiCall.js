@@ -12,7 +12,7 @@ const TestingAPICalls = () => {
   return (
     <div>
       {data.map((item) => (
-        <div>{item.name}</div>
+        <div key={item.name}>{item.name}</div>
       ))}
     </div>
   );
